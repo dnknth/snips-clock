@@ -1,0 +1,2 @@
+git+https://github.com/dnknth/spoken_time.git
+git+https://github.com/dnknth/snips-skill.git
