@@ -1,2 +1,3 @@
-git+https://github.com/dnknth/spoken_time.git
+git+https://github.com/dnknth/poordub.git
 git+https://github.com/dnknth/snips-skill.git
+git+https://github.com/dnknth/spoken_time.git

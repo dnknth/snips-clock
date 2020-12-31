@@ -1,2 +1,4 @@
 venv
+.venv3
 __pycache__
+config.ini

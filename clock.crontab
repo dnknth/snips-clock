@@ -1,0 +1,16 @@
+# Work days
+#
+0 9-20 * * 1-5 _snips-skills cd /var/lib/snips/skills/snips-clock && LANG=de_DE.UTF-8 venv/bin/python3 action-clock.py -v0 --site study
+#
+# Weekend
+#
+0 10-22 * * 6-7 _snips-skills cd /var/lib/snips/skills/snips-clock && venv/bin/python3 action-clock.py -v0 --site study --chime chimes
+15,30,45 10-21 * * 6-7 _snips-skills cd /var/lib/snips/skills/snips-clock && venv/bin/python3 action-clock.py -v0 --site study --chime DEFAULT
+#
+# Big Ben
+#
+59 9-21  * * * _snips-skills cd /var/lib/snips/skills/snips-clock && venv/bin/python3 action-clock.py -v0 --site livingroom --chime bigben_intro
+0 10-22  * * * _snips-skills cd /var/lib/snips/skills/snips-clock && venv/bin/python3 action-clock.py -v0 --site livingroom --chime bigben_full
+15 10-21 * * * _snips-skills cd /var/lib/snips/skills/snips-clock && venv/bin/python3 action-clock.py -v0 --site livingroom --chime bigben_15
+30 10-21 * * * _snips-skills cd /var/lib/snips/skills/snips-clock && venv/bin/python3 action-clock.py -v0 --site livingroom --chime bigben_30
+45 10-21 * * * _snips-skills cd /var/lib/snips/skills/snips-clock && venv/bin/python3 action-clock.py -v0 --site livingroom --chime bigben_45

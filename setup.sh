@@ -13,3 +13,7 @@ else
     >&2 echo "Please install Python3."
     exit 1
 fi
+
+# Create config.ini if it does not exist.
+[ -f config.ini ] || cp config.ini.default config.ini
+

@@ -1,0 +1,37 @@
+# Settings for the clock skill.
+#
+# Settings in the [DEFAULT] section apply to all sections,
+# unless overridden.
+
+[DEFAULT]
+# Chime related
+chime = sounds/clock-chime.wav
+delay = 0
+spacing = 0
+hours = no
+
+# Site related
+volume = 100
+presence_topic =
+presence_pattern = .*
+
+[chimes]
+hours = yes
+
+# Big Ben chimes
+[bigben_intro]
+chime = sounds/bigben-hourly.wav
+delay = 38
+
+[bigben_full]
+chime = sounds/bigben-chime.wav
+hours = yes
+
+[bigben_15]
+chime = sounds/bigben-¼.wav
+
+[bigben_30]
+chime = sounds/bigben-½.wav
+
+[bigben_45]
+chime = sounds/bigben-¾.wav
